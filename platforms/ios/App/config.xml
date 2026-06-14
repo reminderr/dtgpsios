@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget android-versionCode="10012" id="com.smac.dtgps.skytrack" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <feature name="CDVWebViewEngine">
+        <param name="ios-package" value="CDVWebViewEngine" />
+    </feature>
+    <feature name="LaunchScreen">
+        <param name="ios-package" value="CDVLaunchScreen" />
+    </feature>
+    <feature name="LocalStorage">
+        <param name="ios-package" value="CDVLocalStorage" />
+    </feature>
+    <feature name="Console">
+        <param name="ios-package" value="CDVLogger" />
+        <param name="onload" value="true" />
+    </feature>
+    <feature name="HandleOpenUrl">
+        <param name="ios-package" value="CDVHandleOpenURL" />
+        <param name="onload" value="true" />
+    </feature>
+    <feature name="IntentAndNavigationFilter">
+        <param name="ios-package" value="CDVIntentAndNavigationFilter" />
+        <param name="onload" value="true" />
+    </feature>
+    <feature name="GestureHandler">
+        <param name="ios-package" value="CDVGestureHandler" />
+        <param name="onload" value="true" />
+    </feature>
+    <feature name="StatusBarInternal">
+        <param name="ios-package" value="CDVStatusBarInternal" />
+        <param name="onload" value="true" />
+    </feature>
+    <name>DT GPS</name>
+    <description>DT GPS</description>
+    <author email="dev@cordova.apache.org" href="https://cordova.apache.org">
+        Apache Cordova Team
+    </author>
+    <content src="index.html" />
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+    <allow-intent href="https://login2.dtgps.hr/*" />
+    <allow-intent href="https://dtgps.hr/*" />
+    <allow-intent href="https://beta.dtgps.hr/*" />
+    <allow-intent href="https://rc.dtd1.artronic.net/*" />
+    <allow-intent href="https://rc.dtd2.artronic.net/*" />
+    <allow-navigation href="https://login2.dtgps.hr/*" />
+    <allow-navigation href="https://dtgps.hr/*" />
+    <allow-navigation href="https://beta.dtgps.hr/*" />
+    <allow-navigation href="https://rc.dtd1.artronic.net/*" />
+    <allow-navigation href="https://rc.dtd2.artronic.net/*" />
+    <access origin="*" />
+    <preference name="AllowInlineMediaPlayback" value="false" />
+    <preference name="DisallowOverscroll" value="false" />
+    <preference name="EnableViewportScale" value="false" />
+    <preference name="MediaPermissionGrantType" value="grantIfSameHostElsePrompt" />
+    <preference name="MediaTypesRequiringUserActionForPlayback" value="none" />
+    <preference name="SuppressesIncrementalRendering" value="false" />
+    <preference name="SuppressesLongPressGesture" value="false" />
+    <preference name="Suppresses3DTouchGesture" value="false" />
+    <preference name="Hostname" value="10.0.2.2" />
+</widget>
