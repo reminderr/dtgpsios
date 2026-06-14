@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.smac.dtgps.skytrack" android-versionCode="10012" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>DT GPS</name>
+    <description>DT GPS</description>
+    <author email="dev@cordova.apache.org" href="https://cordova.apache.org">
+        Apache Cordova Team
+    </author>
+    <content src="index.html" />
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+    <allow-intent href="https://login2.dtgps.hr/*" />
+    <allow-intent href="https://dtgps.hr/*" />
+    <allow-intent href="https://beta.dtgps.hr/*" />
+    <allow-intent href="https://rc.dtd1.artronic.net/*" />
+    <allow-intent href="https://rc.dtd2.artronic.net/*" />
+    <allow-navigation href="https://login2.dtgps.hr/*" />
+    <allow-navigation href="https://dtgps.hr/*" />
+    <allow-navigation href="https://beta.dtgps.hr/*" />
+    <allow-navigation href="https://rc.dtd1.artronic.net/*" />
+    <allow-navigation href="https://rc.dtd2.artronic.net/*" />
+    <access origin="*" />
+    <preference name="Hostname" value="10.0.2.2" />
+    <platform name="android">
+        <icon src="img/logo.png" density="ldpi" />
+        <icon src="img/logo.png" density="mdpi" />
+        <icon src="img/logo.png" density="hdpi" />
+        <icon src="img/logo.png" density="xhdpi" />
+        <icon src="img/logo.png" density="xxhdpi" />
+        <icon src="img/logo.png" density="xxxhdpi" />
+        <icon foreground="res/mipmap-anydpi-v26/ic_launcher_foreground.png"
+          background="res/mipmap-anydpi-v26/ic_launcher_background.png"
+          density="ldpi"/>
+        <icon foreground="res/mipmap-anydpi-v26/ic_launcher_foreground.png"
+          background="res/mipmap-anydpi-v26/ic_launcher_background.png"
+          density="mdpi"/>
+        <icon foreground="res/mipmap-anydpi-v26/ic_launcher_foreground.png"
+          background="res/mipmap-anydpi-v26/ic_launcher_background.png"
+          density="hdpi"/>
+        <icon foreground="res/mipmap-anydpi-v26/ic_launcher_foreground.png"
+          background="res/mipmap-anydpi-v26/ic_launcher_background.png"
+          density="xhdpi"/>
+        <icon foreground="res/mipmap-anydpi-v26/ic_launcher_foreground.png"
+          background="res/mipmap-anydpi-v26/ic_launcher_background.png"
+          density="xxhdpi"/>
+        <icon foreground="res/mipmap-anydpi-v26/ic_launcher_foreground.png"
+          background="res/mipmap-anydpi-v26/ic_launcher_background.png"
+          density="xxxhdpi"/>
+    </platform>
+
+</widget>
